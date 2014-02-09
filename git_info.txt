@@ -1,0 +1,17 @@
+Setting up a remote repository:
+
+>>git clone https://github.com/aescalante/personal_notes.git
+
+Adding files into the staging are of the repository (Only the first time):
+
+>>git add git_info.txt
+
+Modify some file git_info.txt, and commit changes:
+
+>>git commit git_info.txt
+
+Upload the changes into the remote repository in https://github.com/aescalante/personal_notes
+
+>>git push -u origin master
+
+
